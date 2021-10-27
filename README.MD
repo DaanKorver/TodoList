@@ -1,42 +1,32 @@
-<!-- GETTING STARTED -->
-## Getting Started
+![ts](https://flat.badgen.net/badge/-/TypeScript?icon=typescript&label&labelColor=blue&color=555555)
+![parcel](https://badges.aleen42.com/src/parcel.svg)
+# 📃 TodoList
 
-To get a local copy up and running follow these simple steps.
+The usual TodoList assignment I made for myself so I can keep up with my personal todos. This project was made because I wanted to do some more things with TypeScript. And I also used parcel. Its pretty cool!
 
-### Prerequisites
+## 🔥 Installation
 
-* Latest version of npm
-  ```sh
-  npm install npm@latest -g
-  ```
+Before you start with this project you'll need to install Node on your machine so you can use npm. Make sure to create a directory for this project and then install the dependencies using npm:
 
-### Installation
+Clone
+```sh
+git clone https://github.com/DaanKorver/parcel-boilerplate.git
+```
+Install dependencies
+```sh
+npm install
+```
 
-1. Clone the repo  
+## 🔋 Usage
 
-   With https
-   ```sh
-   git clone https://github.com/DaanKorver/parcel-boilerplate.git
-   ```
-   With SSH  
-   ```sh
-   git clone https://github.com/DaanKorver/parcel-boilerplate.git
-   ```
-2. Install NPM packages
-   ```sh
-   npm install
-   ```
+To start a live server with parcel, run the following command:
+```sh
+npm run dev
+```
 
-## Usage
+To build the project, run the following command:
+```sh
+npm run build
+```
 
-This boilerplate has 2 scripts, dev and build. To execute them do the following  
-
-   Development Script
-   ```sh
-   npm run dev
-   ```
-
-   Build Script
-   ```sh
-   npm run build
-   ```
+Check the package.json for reference
