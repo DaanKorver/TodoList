@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -5,8 +7,10 @@
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: white;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  background-color: #000;
+  background-image: linear-gradient(147deg, #000, #7851a9 200%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,45 +18,79 @@ body {
 }
 
 section {
-  background-color: #3c424a;
+  border-radius: 1em;
+  background-color: #7851a9;
   display: flex;
   flex-direction: column;
-  align-items: center;
   width: 30em;
-  padding: 4em 2em;
+  padding: 6em 4em;
+
   h1 {
     font-size: 2rem;
   }
-  > p {
-    margin-bottom: 1em;
+
+  p {
+    margin: .5em 0;
   }
-  div, input[type=text] {
+
+  div,
+  input[type=text] {
     width: 100%;
   }
+
   input[type=text] {
-    background-color: hsl(214, 10%, 20%);
+    font-family: 'Poppins', sans-serif;
+
+    border: none;
+    border-radius: 1em;
+
     outline: none;
-    border: 1px solid #1e1e1e;
     font-size: 1rem;
-    padding: .5em 1em;
-    color: gray;
+    padding: .7em 1em;
+
+    background-color: #3F3759;
+    color: #fff;
   }
+
+  input[type=text]::placeholder {
+    color: #A6A3AF;
+  }
+
   li {
     display: flex;
     align-items: center;
-    color: hsl(214, 10%, 80%);
+    background-color: #3F3759;
+    margin-top: 1em;
+    padding: 0 1em;
+    border-radius: 1em;
+
     input {
       transform: scale(1.5);
       margin-right: 1em;
       background-color: gray;
     }
+
     button {
       all: unset;
       color: tomato;
       font-size: 2rem;
-      position: relative;
-      margin-left: .3em;
-      top: -2px;
+      width: 20px;
+      height: 20px;
+      line-height: 20px;
+      margin-left: auto;
+      cursor: pointer;
     }
+  }
+}
+
+@media(max-width: 30em) {
+  section {
+    padding: 6em 1.5em;
+    margin: .5em;
+
+    h1 {
+      font-size: 1.5rem;
+    }
+
   }
 }
