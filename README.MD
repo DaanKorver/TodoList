@@ -30,3 +30,9 @@ npm run build
 ```
 
 Check the package.json for reference
+
+## 🪙 Credits
+
+[Daan Korver](https://github.com/DaanKorver) - TypeScript
+
+[Justin Lung](https://github.com/JustinLung) - Design
