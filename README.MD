@@ -31,7 +31,7 @@ npm run build
 
 Check the package.json for reference
 
-## 🪙 Credits
+## 💽 Credits
 
 [Daan Korver](https://github.com/DaanKorver) - TypeScript
 
